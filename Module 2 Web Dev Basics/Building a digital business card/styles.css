@@ -1,13 +1,34 @@
 body {
-  margin: 20px;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .avatar {
   width: 150px;
 }
 
-.card {
+.card-wrapper {
+  min-height: 100vh;
   display: flex;
-  border: 1px dotted blue;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-bottom: 5px solid #d8cefe;
+  border-radius: 10px;
+  box-shadow: 30px -16px 1px teal;
+  text-align: center;
+  display: flex;
+  width: 500px;
   padding: 20px;
+  justify-content: space-around;
+  margin: 0px auto;
+  background-color: #ddebf8;
+  color: #2b2839;
+  align-items: center;
+}
+
+.italic {
+  font-style: italic;
 }
