@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+#main {
+  text-align: center;
+  height: 100vh;
+  background-image: url("images/Sydney.jpeg");
+  background-size: cover;
+}
+
+#homepage-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#homepage-title {
+  margin-top: 130px;
+}
+
+#homepage-description {
+  width: 600px;
+  margin-bottom: 80px;
+}
