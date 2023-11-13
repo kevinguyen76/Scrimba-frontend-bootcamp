@@ -1,4 +1,133 @@
 body {
   margin: 0;
   font-family: "Happy Monkey", sans-serif;
+  background: linear-gradient(#a2d2ff, #efb0c9);
+  color: white;
 }
+
+h1,
+#bday-age,
+#bday-date {
+  text-shadow: 0px 0px 1px black;
+}
+
+#bday-age {
+  background: #efb0c9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 15px 0 10px 0;
+}
+
+#bday-date {
+  margin: 0;
+  background: #efb0c9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#portrait {
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid #efb0c9;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#gift-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#gift-heading {
+  text-shadow: 0px 0px 1px black;
+  margin: 25px 0px 10px 0px;
+}
+
+#gift-instruction {
+  text-shadow: 0px 0px 1px black;
+  margin: 0px 0px 10px 0px;
+}
+
+.gift-img {
+  background-image: url(images/gift-cover.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin-bottom: 20px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+#gift-happy:hover {
+  background-image: url("images/happy.gif");
+  cursor: pointer;
+}
+
+#gift-dance:hover {
+  background-image: url("images/happydance.gif");
+  cursor: pointer;
+}
+
+/*
+Challenge:
+Create the "genius" and "badass" GIFt sections.
+
+Texts:
+If I had to describe you with ONE word 👇
+
+The only person as badass as you 💪
+
+*/
+
+#gift-noice:hover {
+  background-image: url("images/noice.gif");
+  cursor: pointer;
+}
+
+#gift-rocket:hover {
+  background-image: url("images/rocket.gif");
+  cursor: pointer;
+}
+
+/*
+Challenge:
+Create the "cheers" GIFt section.
+
+Note: this GIFt should have a height of 200px. 
+Select the #gift-img-cheers id and override 
+the height that the element got from the 
+.gift-img class.
+*/
+
+#gift-cheers {
+  height: 300px;
+  width: 500px;
+}
+
+#gift-cheers:hover {
+  background-image: url("images/cheers.gif");
+  cursor: pointer;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 0px 0px 1px black;
+  font-style: italic;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #a2d2ff;
+}
+`
