@@ -79,6 +79,7 @@ div > p {
 
 .avatar {
   width: 150px;
+  border-radius: 5px;
 }
 
 .card {
