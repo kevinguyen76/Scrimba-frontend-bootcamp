@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  background-color: rgb(24, 24, 24);
+  font-family: sans-serif;
+}
+
+#nav-bar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  align-items: center;
+  margin: 15px 150px;
+}
+
+#logo {
+  color: rgb(239, 182, 239);
+}
+
+#nav-items-wrapper {
+  /* border: 2px solid red; */
+  width: 450px;
+}
+
+#nav-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 14px;
+  color: rgb(239, 182, 239);
+  list-style: none;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+#nav-btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+}
+
+#nav-btn-wrapper > button {
+  background-color: rgb(239, 182, 239);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0px;
+  width: 85px;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(234, 152, 234);
+}
+
+#download-btn {
+  background-color: rgb(239, 182, 239);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0px;
+  width: 150px;
+  font-weight: bold;
+}
+
+#content-wrapper {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 150px;
+  height: 600px;
+  padding: 0px 10px;
+}
+
+#content-hook {
+  color: rgb(248, 189, 248);
+  font-weight: lighter;
+}
+
+#slogan {
+  width: 350px;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#img-wrapper {
+  margin-top: 50px;
+  margin-right: 70px;
+}
+
+img {
+  width: 550px;
+}
