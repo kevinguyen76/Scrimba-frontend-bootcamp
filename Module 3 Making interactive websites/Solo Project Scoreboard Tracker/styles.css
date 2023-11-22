@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  background-color: #1b244a;
+  font-family: sans-serif;
+}
+
+.container {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+#scoreboard-wrapper {
+  text-align: center;
+}
+
+#home-score-container {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 450px;
+  width: 550px;
+  border-radius: 10px;
+  font-size: 150px;
+  color: #f94f6d;
+}
+
+#guest-score-wrapper {
+  text-align: center;
+}
+
+.button-container {
+  margin-top: 30px;
+}
+
+button {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #9aabd8;
+  color: #9aabd8;
+  border-radius: 5px;
+  margin: 0px 5px;
+  font-size: 30px;
+}
+
+#game-btn-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#new-game-btn {
+  font-family: sans-serif;
+  width: 250px;
+  background-color: lightgreen;
+  color: black;
+  border: 1px rgb(91, 255, 91);
+}
+
+#finished-btn {
+  font-family: sans-serif;
+  width: 250px;
+  background-color: lightcoral;
+  color: black;
+  border: 1px rgb(239, 75, 75);
+}
+
+#winner-wrapper {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+}
