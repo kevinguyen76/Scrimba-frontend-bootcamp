@@ -18,3 +18,17 @@ h1 {
 #message-el {
   font-style: italic;
 }
+
+button {
+  color: #016f32;
+  width: 160px;
+  padding: 10px 0px;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}

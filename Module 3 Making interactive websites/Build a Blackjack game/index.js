@@ -1,23 +1,19 @@
 let firstCard = 10;
-let secondCard = 34;
+let secondCard = 11;
 let sum = firstCard + secondCard;
-
 let hasBlackJack = false;
 let isAlive = true;
-let message = "";
+let message = document.getElementById("message-el");
 
-function biggerThan21(number) {
-  if (number <= 20) {
-    console.log("Do you want to draw a new card? 🙂");
-    message = "Do you want to draw a new card? 🙂";
-  } else if (number === 21) {
+function startGame() {
+  if (sum <= 20) {
+    message.textContent = "Do you want to draw a new card? 🙂";
+  } else if (sum === 21) {
     hasBlackJack = true;
-    console.log("Woohoo! You've got Blackjack! 🥳");
-    message = "Woohoo! You've got Blackjack! 🥳";
+    message.textContent = "Woohoo! You've got Blackjack! 🥳";
   } else {
     isAlive = false;
-    console.log("You've busted... You're out of the game! 😭");
-    message = "You've busted... You're out of the game! 😭";
+    message.textContent = "You've busted... You're out of the game! 😭";
   }
 }
 
