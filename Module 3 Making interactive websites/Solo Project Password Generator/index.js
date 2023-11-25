@@ -94,12 +94,19 @@ const characters = [
 
 let firstPasswordEl = document.getElementById("password1");
 let secondPasswordEl = document.getElementById("password2");
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function () {
+  output.innerHTML = this.value;
+};
 
 function generatePassword() {
   let firstPassword = "";
   let secondPassword = "";
 
-  for (let i = 0; i < 15; i++) {
+  for (let i = 0; i < slider.value; i++) {
     firstPassword += characters[Math.floor(Math.random() * characters.length)];
     secondPassword += characters[Math.floor(Math.random() * characters.length)];
   }

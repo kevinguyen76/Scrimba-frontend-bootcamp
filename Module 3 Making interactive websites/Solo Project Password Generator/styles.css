@@ -3,6 +3,7 @@ body {
   padding: 0px 250px;
   background-color: #1c1c1c;
   font-family: sans-serif;
+  color: white;
 }
 
 #content-wrapper {
@@ -58,4 +59,42 @@ span {
   align-items: center;
   color: rgb(248, 189, 248);
   font-size: 30px;
+}
+
+.slidecontainer {
+  margin-top: 50px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 250px;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: rgb(169, 94, 169);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: rgb(169, 94, 169);
+  cursor: pointer;
 }
