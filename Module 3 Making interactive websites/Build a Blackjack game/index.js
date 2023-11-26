@@ -16,6 +16,7 @@ playerEl.textContent = player.name + ": $" + player.chips;
 
 function startGame() {
   isAlive = true;
+  hasBlackJack = false;
 
   if (isAlive && cardsArr.length === 0) {
     let firstCard = getRandomCard();
